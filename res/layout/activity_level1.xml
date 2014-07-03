@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Level1" >
+
+    <TextView
+        android:id="@+id/StartCounting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:text="Step On How To Play Bible Fun Trivia Game" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/StartCounting"
+        android:layout_below="@+id/StartCounting"
+        android:layout_marginTop="56dp"
+        android:text="You  will have a time limit to study the bible verse and then you will be some question about the bilble verse you study.  The last part of the trivia game you have to put the verse together in a certain time.  Once you complete that level you will level up to the next level.  So get your level up!!!" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/rtbisbutton" 
+        android:onClick="ClickToPlay"/>
+
+</RelativeLayout>
